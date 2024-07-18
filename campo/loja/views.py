@@ -8,3 +8,8 @@ def cadastrar(request):
     return HttpResponse("Opa! Estou no cadastrar")
 
 
+def atualizar(request):
+
+    return HttpResponse("Opa! Estou no atualizar")
+
+

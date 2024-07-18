@@ -2,5 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path['cadastrar/', views.cadastrar]
+    path('cadastrar/', views.cadastrar, name='cadastrar'),
+    path('atualizar/', views.atualizar, name='atualizar'),
+
 ]
